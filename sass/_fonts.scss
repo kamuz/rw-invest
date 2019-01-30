@@ -1,0 +1,136 @@
+/* --------------------------------------------------------------------------
+	>Fonts
+-------------------------------------------------------------------------- */
+@font-face {
+  font-family: 'alliance_no.1bold';
+  src: url('../css/fonts/alliance_no.1_bold.eot');
+  src: url('../css/fonts/alliance_no.1_bold.eot?#iefix') format('embedded-opentype'),
+  url('../css/fonts/alliance_no.1_bold.woff2') format('woff2'),
+  url('../css/fonts/alliance_no.1_bold.woff') format('woff'),
+  url('../css/fonts/alliance_no.1_bold.ttf') format('truetype'),
+  url('../css/fonts/alliance_no.1_bold.svg#alliance_no.1bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'alliance_no.1light';
+  src: url('../css/fonts/alliance_no.1_light.eot');
+  src: url('../css/fonts/alliance_no.1_light.eot?#iefix') format('embedded-opentype'),
+  url('../css/fonts/alliance_no.1_light.woff2') format('woff2'),
+  url('../css/fonts/alliance_no.1_light.woff') format('woff'),
+  url('../css/fonts/alliance_no.1_light.ttf') format('truetype'),
+  url('../css/fonts/alliance_no.1_light.svg#alliance_no.1light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'alliance_no.1medium';
+  src: url('../css/fonts/alliance_no.1_medium.eot');
+  src: url('../css/fonts/alliance_no.1_medium.eot?#iefix') format('embedded-opentype'),
+  url('../css/fonts/alliance_no.1_medium.woff2') format('woff2'),
+  url('../css/fonts/alliance_no.1_medium.woff') format('woff'),
+  url('../css/fonts/alliance_no.1_medium.ttf') format('truetype'),
+  url('../css/fonts/alliance_no.1_medium.svg#alliance_no.1medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'alliance_no.1regular';
+  src: url('../css/fonts/alliance_no.1_regular.eot');
+  src: url('../css/fonts/alliance_no.1_regular.eot?#iefix') format('embedded-opentype'),
+  url('../css/fonts/alliance_no.1_regular.woff2') format('woff2'),
+  url('../css/fonts/alliance_no.1_regular.woff') format('woff'),
+  url('../css/fonts/alliance_no.1_regular.ttf') format('truetype'),
+  url('../css/fonts/alliance_no.1_regular.svg#alliance_no.1regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'weissenhof_groteskbold';
+  src: url('../css/fonts/weissenhofgrotesk-bold.eot');
+  src: url('../css/fonts/weissenhofgrotesk-bold.eot?#iefix') format('embedded-opentype'),
+  url('../css/fonts/weissenhofgrotesk-bold.woff2') format('woff2'),
+  url('../css/fonts/weissenhofgrotesk-bold.woff') format('woff'),
+  url('../css/fonts/weissenhofgrotesk-bold.ttf') format('truetype'),
+  url('../css/fonts/weissenhofgrotesk-bold.svg#weissenhof_groteskbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'weissenhof_grotesklight';
+  src: url('../css/fonts/weissenhofgrotesk-light.eot');
+  src: url('../css/fonts/weissenhofgrotesk-light.eot?#iefix') format('embedded-opentype'),
+  url('../css/fonts/weissenhofgrotesk-light.woff2') format('woff2'),
+  url('../css/fonts/weissenhofgrotesk-light.woff') format('woff'),
+  url('../css/fonts/weissenhofgrotesk-light.ttf') format('truetype'),
+  url('../css/fonts/weissenhofgrotesk-light.svg#weissenhof_grotesklight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'weissenhof_groteskmedium';
+  src: url('../css/fonts/weissenhofgrotesk-medium.eot');
+  src: url('../css/fonts/weissenhofgrotesk-medium.eot?#iefix') format('embedded-opentype'),
+  url('../css/fonts/weissenhofgrotesk-medium.woff2') format('woff2'),
+  url('../css/fonts/weissenhofgrotesk-medium.woff') format('woff'),
+  url('../css/fonts/weissenhofgrotesk-medium.ttf') format('truetype'),
+  url('../css/fonts/weissenhofgrotesk-medium.svg#weissenhof_groteskmedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'weissenhof_groteskregular';
+  src: url('../css/fonts/weissenhofgrotesk-regular.eot');
+  src: url('../css/fonts/weissenhofgrotesk-regular.eot?#iefix') format('embedded-opentype'),
+  url('../css/fonts/weissenhofgrotesk-regular.woff2') format('woff2'),
+  url('../css/fonts/weissenhofgrotesk-regular.woff') format('woff'),
+  url('../css/fonts/weissenhofgrotesk-regular.ttf') format('truetype'),
+  url('../css/fonts/weissenhofgrotesk-regular.svg#weissenhof_groteskregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'aktivgrotesk-regular';
+  src: url('../css/fonts/aktivgrotesk-regular.eot');
+  src: url('../css/fonts/aktivgrotesk-regular.eot?#iefix') format('embedded-opentype'),
+  url('../css/fonts/aktivgrotesk-regular.woff2') format('woff2'),
+  url('../css/fonts/aktivgrotesk-regular.woff') format('woff'),
+  url('../css/fonts/aktivgrotesk-regular.ttf') format('truetype'),
+  url('../css/fonts/aktivgrotesk-regular.svg#aktivgrotesk-reguuploadedfile') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'aktivgrotesk-bold';
+  src: url('../css/fonts/aktivgrotesk-bold.eot');
+  src: url('../css/fonts/aktivgrotesk-bold.eot?#iefix') format('embedded-opentype'),
+  url('../css/fonts/aktivgrotesk-bold.woff2') format('woff2'),
+  url('../css/fonts/aktivgrotesk-bold.woff') format('woff'),
+  url('../css/fonts/aktivgrotesk-bold.ttf') format('truetype'),
+  url('../css/fonts/aktivgrotesk-bold.svg#aktivgrotesk-bolduploadedfile') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik-Medium';
+  src: url('../css/fonts/Graphik-Medium.eot');
+  src: url('../css/fonts/Graphik-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../css/fonts/Graphik-Medium.woff') format('woff'),
+  url('../css/fonts/Graphik-Medium.ttf') format('truetype'),
+  url('../css/fonts/Graphik-Medium.svg#aktivgrotesk-bolduploadedfile') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

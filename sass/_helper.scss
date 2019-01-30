@@ -1,0 +1,232 @@
+
+/* ==========================================================================
+  > all font here
+  ========================================================================== */
+
+
+
+/*==========================================================================
+  > helper start
+  ========================================================================== */
+
+h1{
+  font-family: $base-font;
+  font-size: round($base-font-size*2.38);//43px
+  line-height: 43px;
+  font-weight: 700;
+}
+
+h2{
+  font-family:$base-font;
+  font-size: round($base-font-size*2);//36px
+  line-height: 36px;
+  font-weight: 700;
+}
+
+
+h3{
+  font-family: $Alliance-bold;
+  font-size: round($base-font-size*1.67);//30px
+  font-weight: 700;
+}
+h4{
+  font-family: $base-font;
+  font-size:  round($base-font-size*1.444);//26px
+  font-weight: 700;
+}
+h5{
+  font-family: $Alliance-bold;
+  font-size: $base-font-size;//18px
+  font-weight: 700;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+  padding: 0;
+}
+ul li,ol li{
+  list-style: none;
+}
+
+.custom-btn{
+  width: 100%;
+  height: 45px;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: $black;
+  background-color: $yellow;
+  font-family: $Grotesk-Medium;
+  font-size: $base-font-size+(-1);
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.9em;
+  border: none;
+  transition: 2s;
+  color: $black-light;
+  font-weight: 500;
+  &:active:hover,&active:focus,&:active,&:hover,&:focus{
+    background-color:$gry-bg-color;
+    color: $black-light;
+    border-color:transparent;
+    box-shadow: none;
+    outline: none;
+    transition: 2s;
+  }
+}
+
+.btn {
+  width: 100%;
+  height: 45px;
+  box-shadow: none;
+  outline: none;
+  background-color: $yellow;
+  font-family: $Grotesk-Medium;
+  font-size: $base-font-size+(-1);
+  text-align: center;
+  border: none;
+  transition: 2s;
+  color: $black-light;
+  font-weight: 500;
+  position: relative;
+  padding: 7px 30px 6px;
+  border-radius: 0;
+  line-height: 25px;
+  -webkit-transition-property: color, border-color, background-color;
+  transition-property: color, border-color, background-color;
+  -webkit-transition-duration: .35s;
+  transition-duration: .35s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  text-transform: uppercase;
+  z-index: 0
+}
+
+.btn.active,
+.btn:active {
+  box-shadow: none
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+  outline: 0
+}
+
+.btn:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: -webkit-transform .50s ease-in-out;
+  transition: transform .50s ease-in-out;
+  transition: transform .50s ease-in-out, -webkit-transform .50s ease-in-out;
+  z-index: -1
+}
+
+.btn.active:before,
+.btn:focus:before,
+.btn:hover:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1)
+}
+
+.btn-default,
+.btn-default.disabled.focus,
+.btn-default.disabled:focus,
+.btn-default.disabled:hover,
+.btn-default[disabled].focus,
+.btn-default[disabled]:focus,
+.btn-default[disabled]:hover {
+  color: $white;
+  background-color: #000;
+
+}
+
+.btn-default:before {
+  background-image: $linar-gradient1;
+  border: none;
+}
+.btn-default.active,
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default.focus,
+.btn-default:active,
+.btn-default:active.focus,
+.btn-default:active:focus,
+.btn-default:active:hover,
+.btn-default:focus,
+.btn-default:hover {
+  color: $white;
+  background-color: transparent;
+
+}
+
+.custom-btn,
+.custom-btn.disabled.focus,
+.custom-btn.disabled:focus,custom-btn
+.custom-btn.disabled:hover,
+.custom-btn[disabled].focus,
+.custom-btn[disabled]:focus,
+.custom-btn[disabled]:hover {
+  color: $black;
+  background-color: $yellow;
+}
+
+.custom-btn:before {
+  background-color: #fff;
+}
+
+.custom-btn:before {
+  background-image: $linar-gradient3;
+  border: none;
+}
+
+.custom-btn.active,
+.custom-btn.active.focus,
+.custom-btn.active:focus,
+.custom-btn.active:hover,
+.custom-btn.focus,
+.custom-btn:active,
+.custom-btn:active.focus,
+.custom-btn:active:focus,
+.custom-btn:active:hover,
+.custom-btn:focus,
+.custom-btn:hover{
+  color: $white;
+  background-color: transparent;
+
+}
+
+
+
+.separator{
+  border-bottom: 4px dashed $gray;
+}
+
+.mb-29{
+  margin-bottom: 29px;
+}
+.after {
+  position: absolute;
+  content: " ";
+  display: block;
+  background: no-repeat center center transparent;
+  background-size: cover;
+}
+.display-none{
+  display: none;
+}

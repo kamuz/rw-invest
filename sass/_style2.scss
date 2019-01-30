@@ -1,0 +1,340 @@
+/* ==========================================================================
+  > testimonial-area  start
+  ========================================================================== */
+
+.testimonial-area {
+  background-color: $deep-white;;
+  overflow: hidden;
+  .common-title {
+    padding: 25px 0 0 0;
+    h3 {
+      text-align: center;
+      color: $black;
+      font-family: $base-font-medium;
+      font-weight: 500;
+      line-height: 58px;
+      letter-spacing: -1px;
+      font-size: 32px;
+
+    }
+  }
+
+  i {
+    display: inline-block;
+  }
+
+  .single-testimonial {
+
+    .testimonial {
+      position: relative;
+      padding: 15px 5px;
+      box-sizing: border-box;
+      background: $white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.11);
+      margin-bottom: 25px;
+      min-height: 215px;
+      ul {
+        margin: -8px 48px;
+
+        li {
+          list-style: none;
+          float: left;
+          margin-left: 5px;
+          i {
+            color: $yellow;
+            font-size: 22px;
+          }
+        }
+      }
+
+      .content {
+        position: relative;
+        display: block;
+        min-height: 127px;
+        color: #505050;
+        font-family: $base-font-regular;
+        font-size: $base-font-size+(-4);
+        font-weight: 400;
+        line-height: 21px;
+        width: 81%;
+        padding: 17px 6px 17px 54px;
+
+      }
+
+      &:before {
+        @extend .after;
+        background: url("#{$assetPath}/google-bg.png") no-repeat;
+        right: 20px;
+        height: 33px;
+        width: 33px;
+        bottom: 20px;
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        margin-left: -0.5em;
+        bottom: -2em;
+        left: 12%;
+        box-sizing: border-box;
+        border: 1em solid rgba(0, 0, 0, 0.11);
+        border-color: transparent transparent $white $white;
+        transform-origin: 0 0;
+        transform: rotate(-45deg);
+        box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.11);
+      }
+    }
+
+    img {
+      padding: 0 8px 0px 32px;
+      float: left;
+    }
+
+    .info {
+      display: inline-block;
+      float: left;
+
+      h3 {
+        color: $navy;;
+        margin: 2px;
+        font-family: $Alliance-bold;
+        font-size: $base-font-size+(2);
+        font-weight: 700;
+      }
+      p {
+        color: $normal-black;
+        font-family: $Alliance-no-1-light;
+        font-size: $base-font-size+(-4);
+        font-weight: 300;
+      }
+    }
+  }
+
+  .slider {
+    max-width: 100%;
+    overflow: hidden;
+    margin: 50px auto;
+  }
+  .slick-slide {
+    margin: 0 8px;
+    outline: none;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+    display: none;
+  }
+
+  .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: 1;
+  }
+
+  .slick-active {
+    opacity: 1;
+  }
+
+  .slick-current {
+    opacity: 1;
+  }
+
+}
+
+/* ==========================================================================
+  > review-image start
+  ========================================================================== */
+
+.review-image {
+  padding: 55px 0;
+  background-color: $white;
+
+
+  .single-image{
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+/* ==========================================================================
+  > brand-image start
+  ========================================================================== */
+
+.brand-image {
+padding: 0 0 40px 0;
+  background-color: $white;
+}
+.flex-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+}
+
+.flex-container > div {
+  background-color: transparent;
+  margin: 10px;
+  font-size: 30px;
+  min-width: 199px;
+  text-align: center;
+}
+/* ==========================================================================
+  > footer start
+  ========================================================================== */
+
+.footer {
+  color: $white;
+  .footer-top {
+    padding: 20px 0;
+    background-image: linear-gradient(227deg, $nav-blue-light 0%, $nav-blue 100%);
+    background: linear-gradient(227deg, $nav-blue-light 0%, $nav-blue 100%);;
+    background: -moz-linear-gradient(227deg, $nav-blue-light 0%, $nav-blue 100%); /* FF3.6+ */
+    background: -webkit-gradient(227deg, $nav-blue-light 0%, $nav-blue 100%); /* Chrome,*/
+    background: -webkit-linear-gradient(227deg, $nav-blue-light 0%, $nav-blue 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(227deg, $nav-blue-light 0%, $nav-blue 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(227deg, $nav-blue-light 0%, $nav-blue 100%); /* IE10+ */
+    background: linear-gradient(227deg, $nav-blue-light 0%, $nav-blue 100%); /* W3C */
+
+    h5 {
+      font-size: $base-font-size+(-4);
+      font-family: $Alliance-no-1-light;
+      font-weight: 300;
+      text-transform: uppercase;
+      line-height: .5;
+    }
+    h4 {
+
+      font-family: $Grotesk-Medium;
+      font-size: $base-font-size+(8);
+      font-weight: 500;
+      line-height: 0.4;
+    }
+    .top-title {
+      padding: 14px 0;
+    }
+    .top-title a{
+      text-decoration: none;
+      color: $white;
+      transition: 1s;
+      &:hover,&:active,&:focus{
+        color: $yellow;
+        transition: 2s;
+      }
+    }
+    .follow-title {
+      font-family: $Grotesk-Bold;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .social-icon {
+      text-align: right;
+      padding: 20px 0 5px 0;
+      ul {
+        li {
+          font-family: $Grotesk-Bold;
+          font-size: 18px;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+      }
+      ul {
+        li i {
+          font-size: 28px;
+          border-radius: 4px;
+          line-height: 39px;
+          border: 1px solid rgba(255, 255, 255, 0.58);
+          padding: 3px 13px 0 9px;
+          height: 42px;
+          width: 42px;
+          color: $white;
+          transition: 1s;
+          &:hover,&:active,&:focus{
+            color: $yellow;
+            border: 1px solid $yellow;
+            transition: 2s;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-middle {
+    padding: 34px 0;
+    background-image: linear-gradient(247deg, $navy-light 0%, $navy 100%);
+    background: linear-gradient(247deg, $navy-light 0%, $navy 100%);;
+    background: -moz-linear-gradient(247deg, $navy-light 0%, $navy 100%); /* FF3.6+ */
+    background: -webkit-gradient(247deg, $navy-light 0%, $navy 100%); /* Chrome,*/
+    background: -webkit-linear-gradient(247deg, $navy-light 0%, $navy 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(247deg, $navy-light 0%, $navy 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(247deg, $navy-light 0%, $navy 100%); /* IE10+ */
+    background: linear-gradient(247deg, $navy-light 0%, $navy 100%); /* W3C */
+
+  }
+  .logo {
+    width: 100%;
+    height: auto;
+  }
+  .middle-text {
+    margin-bottom: 40px;
+    h5 {
+      line-height: 32px;
+      font-weight: 700;
+      font-family:$Grotesk-Bold;
+      font-size: $base-font-size;
+
+    }
+    ul li {
+      font-family: $Grotesk-Regular;
+      font-size: $base-font-size;
+      font-weight: 400;
+      line-height: 2;
+    }
+  }
+  .custom-border-botom {
+    height: 1px;
+    border: 1px solid $white;
+    opacity: 0.61;
+  }
+  .privacy {
+    float: right;
+  }
+  .footer-bottom {
+    padding: 30px 0 2px 3px;
+    font-size: $base-font-size+(-2);
+    h5 {
+
+      font-family: $base-font-medium;
+      font-weight: 500;
+      line-height: 1;
+      font-size: 16px;
+    }
+    ul li a{
+      font-family: $base-font-regular;
+      font-weight: 400;
+      text-decoration: none;
+      line-height: 3;
+      font-size: 16px;
+      color: $white;
+      transition: 1s;
+      border-bottom: 1px solid $white;
+      &:hover,&:active,&:focus{
+       color: $yellow;
+        border-bottom: 1px solid $yellow;
+        transition: 1s;
+      }
+    }
+
+  }
+
+}
+

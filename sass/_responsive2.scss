@@ -1,0 +1,684 @@
+
+/* ==========================================================================
+   > Responsive
+   ========================================================================== */
+
+@media screen and (min-width: 1300px) {
+
+}
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (max-width: 991px) {
+  .banner-area {
+    overflow: visible;
+  }
+  .banner-area:after {
+    display: none;
+  }
+  .summary .summary-img img{
+    height: auto;
+  }
+  .tobacco-img .slick-slide img {
+    min-height: 20px;
+  }
+  .testimonial-area .single-testimonial .testimonial .content {
+    width: 100%;
+  }
+  .tobacco-in3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: $white;
+    .single-heading{
+      margin: 0;
+    }
+    .single-heading {
+      h1, h4{
+        color: $dark;
+        margin-left: 15px;
+      }
+    }
+  }
+
+  .tobacco-img {
+    .slick-next {
+      right: -9px !important;
+
+    }
+    .slick-prev {
+      left: -9px !important;
+    }
+  }
+  .footer .footer-top .social-icon ul li {
+    font-size: $base-font-size+(-2);
+  }
+  .footer .footer-top .social-icon ul li i {
+    font-size: $base-font-size+6;
+    line-height: 31px;
+    height: 38px;
+    width: 38px;
+  }
+  .contact-area {
+    padding-top: 115px;
+  }
+  .invest .download-circle {
+    left: 304px;
+  }
+  .investment .download-circle {
+    left: 296px;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .testimonial-area .single-testimonial .testimonial ul li i {
+    font-size: 16px;
+  }
+  .testimonial-area .single-testimonial .testimonial .content {
+    padding: 17px 6px 17px 24px;
+  }
+  .custom-navbar .custom-nav ul li {
+    padding: 25px 5px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* ==========================================================================
+	#Media - Tablets in landscape
+========================================================================== */
+@media (max-width: 1024px) {
+  .lis-item > li {
+    width: 140px;
+  }
+  .lis-item li h5 {
+    line-height: 20px;
+  }
+  .contact-area .contact-block .contact-header h5:first-child {
+    font-size: $base-font-size+(-2);
+  }
+  .contact-area .contact-block .contact-header h5 {
+    font-size: $base-font-size;
+  }
+  .contact-area .contact-block .lock p {
+    font-size: $base-font-size+(-7);
+  }
+   .investment ul li {
+    font-size: $base-font-size;
+    line-height: 45px;
+  }
+  .trustpilot-area .trustpailot .reviews {
+    font-size: $base-font-size+(-4);;
+    line-height: 46px;
+  }
+  .contact-area.affix {
+    padding-top: 10px;
+    right: 2%;
+    width: 319px!important;
+  }
+  .lis-item li h5 {
+    font-size: $base-font-size+(-3);
+  }
+}
+
+/* ==========================================================================
+	#Media - Tablets in portrait
+========================================================================== */
+@media (max-width: 979px) {
+
+}
+
+/* ==========================================================================
+	#Tablets
+========================================================================== */
+@media (max-width: 780px) {
+
+}
+
+/* ==========================================================================
+	#Phones
+========================================================================== */
+@media only screen and (max-width: 479px) {
+
+}
+
+/* ==========================================================================
+	#Retina
+========================================================================== */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi) {
+  /* Retina-specific stuff here */
+}
+@media (min-width: 768px){
+.custom-navbar{
+  border-radius: 0px;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+  .custom-navbar .navbar-brand>img{
+    width: 72%;
+  }
+
+  .custom-navbar  .navbar-left{
+    padding: 0;
+    text-align: center;
+    margin-top: -16px;
+  }
+
+  .custom-navbar .navbar-right ul {
+    list-style: none;
+    text-align: center;
+  }
+  .custom-navbar .navbar-right ul li {
+    float: none;
+    text-align: center;
+    display: inline-block;
+    padding: 0px 10px;
+  }
+  .lis-item > li {
+    width: 171px;
+  }
+   .investment ul li:first-child:before {
+    top: 62px;
+  }
+   .investment .download-circle {
+    left: 318px;
+  }
+  .trustpilot-area .trustpailot {
+    text-align: center;
+    img {
+      margin: 0 auto;
+    }
+  }
+  .trustpilot-area .trustpailot-content .single-content {
+    text-align: center;
+  }
+
+  .footer .middle-text {
+    text-align: center;
+  }
+  .footer .logo {
+    text-align: center;
+  }
+  .footer .footer-bottom h5 {
+    text-align: center;
+    font-size: 16px
+  }
+  .custom-list {
+
+    text-align: center;
+  }
+  .footer .footer-top {
+    text-align: center;
+  }
+  .footer .footer-top .social-icon {
+    text-align: center;
+  }
+  .testimonial-area .common-title {
+    padding: 5px 0 0 0;
+  }
+  .banner-area .contact-area{
+    padding-top: 40px;
+  }
+  .tobacco-in3 {
+    margin-top: 0;
+    padding: 51px 15px 10px;
+    .single-heading h1{
+      color: $dark;
+    }
+    .single-heading h4{
+      color: $dark;
+    }
+  }
+
+  .invest-in2 .highlight {
+    padding: 35px 0;
+   .img2 {
+      right: 37px;
+    }
+  }
+  .list-change > li:nth-child(2) {
+    border-right: none;
+  }
+
+  .invest-in2{
+    h3{
+      font-size: $base-font-size+8;
+    }
+    ul li:nth-child(3),  ul li:nth-child(4){
+      font-size: $base-font-size+(-4);
+    }
+    ul li:first-child:before{
+      top: 56px;
+    }
+  }
+  .invest-in2 .custom-btn{
+    font-size: $base-font-size+(-2);
+  }
+
+
+  .contact-area {
+    padding: 20px 40px;
+  }
+
+  .footer .middle-text{
+    text-align: center;
+  }
+  .footer .logo{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+  .footer .footer-top .social-icon ul li i{
+    font-size: $base-font-size+4;
+  }
+  .footer .footer-top .social-icon ul li{
+    font-size: $base-font-size+(-4);
+  }
+  .footer .footer-top .top-title{
+    text-align: center;
+    h4{
+      font-size: $base-font-size+5;
+    }
+  }
+  .intl-tel-input .country-list {
+    width: 326px !important;
+  }
+  .summary{
+    text-align: center;
+  }
+  .tobacco{
+    padding-bottom: 0;
+  }
+  .testimonial-area .common-title h3{
+    font-size: $base-font-size+8;
+  }
+  .statistics-form .single-statistics .lis-item1 > li{
+    width: 145px;
+    margin-bottom: 20px;
+  }
+  .contact-area .contact-in2 .contact-header h4{
+    font-size: $base-font-size+2;
+  }
+  .summary h3{
+    font-size: $base-font-size+10;
+  }
+
+}
+
+/* i-pad  */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+   .investment .download-circle {
+    left: 305px;
+  }
+  .lis-item > li {
+    width: 166px;
+  }
+  .banner-area .contact-area{
+    padding: 20px 30px;
+  }
+  .tobacco-in3 {
+    padding: 51px 0 10px 0;
+    .single-heading{
+      margin: 0;
+    }
+    .single-heading h1{
+      color: $dark;
+    }
+    .single-heading h4{
+      color: $dark;
+    }
+  }
+  .invest-in2 .highlight {
+    padding: 35px 0;
+  }
+  .statistics-form .single-statistics .lis-item1 > li{
+    width: 178px;
+  }
+
+  .contact-area {
+    padding: 20px 40px;
+  }
+  .flex-container > div {
+    min-width: 167px;
+  }
+  .footer .middle-text{
+    text-align: center;
+  }
+  .footer .logo{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+  .footer .footer-top .social-icon ul li i{
+  font-size: $base-font-size+4;
+  }
+  .footer .footer-top .social-icon ul li{
+    font-size: $base-font-size+(-4);
+  }
+  .footer .footer-top .top-title{
+    text-align: center;
+    h4{
+      font-size: $base-font-size+5;
+    }
+  }
+
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  .invest-in2 .highlight {
+    margin-top: 34px;
+    .img2 {
+      right: 20px;
+    }
+  }
+  .statistics-form .single-statistics .lis-item1 > li{
+    width: 178px;
+  }
+
+}
+
+
+
+/* i-pad pro Portrait */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+   .investment .download-circle {
+    left: 65px;
+  }
+  .lis-item > li {
+    width: 140px;
+  }
+  .trustpilot-area .trustpailot .reviews {
+    font-size: $base-font-size+(-4);
+    line-height: 46px;
+  }
+
+  .invest-in2 .highlight {
+    margin-top: 34px;
+    .img2 {
+      top: 158px;
+    }
+  }
+
+  .statistics-form .single-statistics .lis-item1 > li{
+    width: 178px;
+  }
+
+  .flex-container > div{
+    min-width: 168px;
+  }
+  .tobacco-in3 {
+    padding: 51px 0 10px 0;
+    .single-heading{
+      margin:-545px 0 0 0;
+    }
+    .single-heading h1{
+      color: $white;
+    }
+    .single-heading h4{
+      color: $white;
+    }
+  }
+
+}
+
+//iphone x
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+   .investment .download-circle {
+    left: 111px;
+  }
+  .lis-item > li {
+    width: 140px;
+  }
+  .triangle-trustpilot{
+    padding-bottom: 30px;
+  }
+  .list-change > li:nth-child(2) {
+    border-right: none;
+  }
+  .statistics-form .single-statistics .lis-item1 > li{
+    width: 145px;
+    margin-bottom: 20px;
+  }
+
+
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+   .investment .download-circle {
+    left: 301px;
+  }
+  .lis-item > li {
+    width: 166px;
+  }
+  .banner-area .contact-area{
+    padding: 20px 30px;
+  }
+  .tobacco-in3 {
+    margin-top: 0;
+    padding: 51px 0 10px 0;
+    .single-heading h1{
+      color: $dark;
+    }
+    .single-heading h4{
+      color: $dark;
+    }
+  }
+  .invest-in2 .highlight {
+    padding: 15px 0;
+  }
+
+  .flex-container > div {
+    min-width: 168px;
+  }
+  .growth-circle {
+    left: 65%;
+    top: 28px;
+  }
+
+
+}
+
+//i phone 5,6,7 plus
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+  .investment .download-circle {
+    left: 145px;
+  }
+  .lis-item > li {
+    width: 164px;
+  }
+  .growth-circle {
+    left: 56%;
+    top: 260px;
+  }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+
+  .lis-item > li {
+    width: 164px;
+  }
+  .tobacco-img {
+    .slick-next {
+      right: -9px !important;
+
+    }
+    .slick-prev {
+      left: -9px !important;
+    }
+  }
+
+  .statistics-form .single-statistics .lis-item1 > li{
+    width: 202px;
+  }
+  .growth-circle {
+    left: 65%;
+    top: 28px;
+  }
+  .banner-area .contact-area {
+    padding: 100px 30px;
+  }
+}
+
+//i phone 5 portrait
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+   .investment ul li:first-child:before {
+    top: 57px;
+  }
+  .investment h3 {
+    font-size: $base-font-size+8;
+  }
+  .investment .download-circle {
+    left: 90px;
+  }
+  .lis-item > li {
+    width: 130px;
+  }
+  .contact-area .contact-block .lock {
+    padding: 12px;
+  }
+
+  .statistics-form .single-statistics .lis-item1{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .statistics-form .single-statistics .lis-item1 > li{
+    width: 250px;
+  }
+
+
+
+  .growth-circle {
+    left: 61%;
+    top: 328px;
+  }
+
+}
+
+//i phone 5,6,7
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+   .investment .download-circle {
+    left: 106px;
+  }
+  .lis-item > li {
+    width: 151px;
+  }
+  .growth-circle {
+    left: 54%;
+    top: 282px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+
+  .investment .download-circle {
+    left: 260px;
+  }
+  .lis-item > li {
+    width: 146px;
+  }
+  .tobacco-img {
+    .slick-next {
+      right: -9px !important;
+
+    }
+    .slick-prev {
+      left: -9px !important;
+    }
+  }
+  .statistics-form .single-statistics .lis-item1 > li{
+    width: 180px;
+  }
+
+}
+
+//i phone 5 landscape
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+   .investment .download-circle {
+    left: 218px;
+  }
+  .lis-item > li {
+    width: 122px;
+  }
+  .statistics-form .single-statistics .lis-item1 > li{
+    width: 150px;
+  }
+  .growth-circle {
+    left: 66%;
+    top: 57px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .custom-navbar .navbar-left h5 {
+    font-size: $base-font-size;
+  }
+  .custom-navbar .custom-nav ul li img {
+    width: 80%;
+  }
+
+  .custom-navbar .custom-nav ul li {
+    font-size: $base-font-size+4;
+    padding: 0px 4px;
+  }
+  .lis-item {
+    justify-content: space-around;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  .custom-navbar .navbar-left h5 {
+    font-size: $base-font-size+(-4);
+  }
+  .custom-navbar .custom-nav ul li img {
+    width: 70%;
+  }
+  .custom-navbar .custom-nav ul li {
+    font-size: $base-font-size+(-1);
+    padding: 0;
+  }
+
+  .investment .download-circle {
+    left: 92px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .custom-navbar .navbar-left h5 {
+    font-size: $base-font-size+(-6);
+  }
+  .custom-navbar .custom-nav ul li {
+    font-size: $base-font-size+(-5);
+  }
+  .footer .footer-top .social-icon ul li i {
+    font-size: 9px;
+    line-height: 26px;
+    padding: 0 7px 0 4px;
+    height: 25px;
+    width: 21px;
+  }
+  .testimonial-area .single-testimonial .testimonial .content {
+
+    width: 100%;
+
+  }
+  .testimonial-area .common-title h3 {
+
+    line-height: 5px;
+    letter-spacing: -1px;
+    font-size: 23px;
+  }
+
+}

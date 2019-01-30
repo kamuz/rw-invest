@@ -1,0 +1,348 @@
+
+/* ==========================================================================
+   > Responsive
+   ========================================================================== */
+
+@media screen and (min-width: 1300px) {
+
+}
+@media screen and (min-width: 992px) {
+  .statistics-form .single-statistics .lis-item > li {
+    min-width: 188px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  .testimonial-area .single-testimonial .testimonial .content {
+    width: 100%;
+  }
+  .statistics-form .custom-contact-area3 {
+    margin-top: 0;
+  }
+  .statistics-form .single-statistics .lis-item > li {
+    min-width: 187px;
+  }
+  .growth-circle {
+    left: 60%;
+    top: 42px;
+  }
+  .homepage-brand .caption .home-title h3 {
+    font-size: 21px;
+    line-height: -1.5;
+  }
+  .contact-area {
+    &.affix {
+      position: relative;
+      top: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .testimonial-area .single-testimonial .testimonial ul li i {
+    font-size: 16px;
+  }
+  .testimonial-area .single-testimonial .testimonial .content {
+    padding: 17px 6px 17px 24px;
+  }
+  .statistics-form .single-statistics .lis-item > li {
+    min-width: 187px!important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* ==========================================================================
+	#Media - Tablets in landscape
+========================================================================== */
+@media (max-width: 1024px) {
+
+
+}
+
+/* ==========================================================================
+	#Media - Tablets in portrait
+========================================================================== */
+@media (max-width: 979px) {
+
+}
+
+/* ==========================================================================
+	#Tablets
+========================================================================== */
+@media (max-width: 780px) {
+
+}
+
+/* ==========================================================================
+	#Phones
+========================================================================== */
+@media only screen and (max-width: 492px) {
+  .growth-circle {
+    left: 65%;
+    top: 227px;
+  }
+
+
+}
+
+/* ==========================================================================
+	#Retina
+========================================================================== */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi) {
+  /* Retina-specific stuff here */
+}
+@media (min-width: 768px){
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+  .footer .middle-text {
+    text-align: center;
+  }
+  .footer .logo {
+    text-align: center;
+  }
+  .footer .footer-bottom h5 {
+    text-align: center;
+    font-size: 16px
+  }
+  .custom-list{
+
+    text-align: center;
+  }
+  .footer .footer-top {
+    text-align: center;
+  }
+  .footer .footer-top .social-icon {
+    text-align: center;
+  }
+  .testimonial-area .common-title {
+    padding: 5px 0 0 0;
+  }
+  .custom-navbar .custom-nav ul {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: -60px;
+  }
+  .caption{
+    margin-left: 20px;
+  }
+  .homepage-brand .caption ul li:first-child:before {
+    left: 27px;
+
+  }
+
+
+
+}
+
+
+/* i-pad  */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+}
+
+/* i-pad pro Portrait */
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1366px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}
+
+
+//iphone x
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) {
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) {
+
+}
+
+//i phone 5,6,7 plus
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : portrait) {
+
+}
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : landscape) {
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+
+}
+
+
+//i phone 5,6,7
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) {
+
+}
+
+//i phone 5
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+
+
+}
+
+@media screen and (max-width: 375px) {
+  .footer .footer-top .social-icon ul li i {
+    font-size: 12px;
+    line-height: 37px;
+    padding: 0 7px 0 4px;
+    height: 34px;
+    width: 31px;
+  }
+  footer .footer-top h4 {
+    font-size: 18px!important;
+  }
+  .testimonial-area .common-title h3 {
+    line-height: 5px;
+    letter-spacing: -1px;
+    font-size: 24px;
+  }
+  .homepage-brand .caption .home-title h3 {
+    font-size: 18px;
+  }
+
+  .growth-circle {
+    left: 57%;
+    top: 254px;
+    max-width: 34%;
+    height: 130px;
+  }
+
+  .growth {
+    line-height: 20px;
+    font-size: 18px;
+    span {
+      font-weight: 700;
+      font-size: 16px;
+    }
+  }
+  .statistics-form .single-statistics .lis-item li h2 {
+    height: 15px;
+    font-size: 15px;
+  }
+  .statistics-form .single-statistics .lis-item li h5 {
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .statistics-form .single-statistics .lis-item > li {
+    min-width: 96px!important;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  .footer .footer-top .social-icon ul li i {
+    font-size: 9px;
+    line-height: 26px;
+    padding: 0 7px 0 4px;
+    height: 25px;
+    width: 21px;
+  }
+  .testimonial-area .single-testimonial .testimonial .content {
+
+    width: 100%;
+
+  }
+  .testimonial-area .common-title h3 {
+
+    line-height: 5px;
+    letter-spacing: -1px;
+    font-size: 23px;
+  }
+  .growth-circle {
+    left: 57%;
+    top: 300px;
+    width: 100px;
+    height: 100px;
+  }
+  .growth {
+    line-height: 20px;
+    font-size: 26px;
+  }
+
+  .growth {
+
+    line-height: 14px;
+    font-size: 14px;
+
+    span {
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+  }
+  .statistics-form .single-statistics .lis-item li h2 {
+    height: 13px;
+    font-size: 13px;
+  }
+  .statistics-form .single-statistics .lis-item li h5 {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .statistics-form .single-statistics .lis-item > li {
+    min-width: 80px!important;
+    height: 70px;
+  }
+
+}

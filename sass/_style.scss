@@ -1,0 +1,30 @@
+/* --------------------------------------------------------------------------
+	>Base
+-------------------------------------------------------------------------- */
+html,
+body {
+  height: 100%;
+}
+
+html {
+  overflow-y: scroll;
+}
+body {
+  min-width: 100px;
+  background: #ffffff;
+  font-family: $base-font;
+  font-size: $base-font-size;
+  line-height: 1.5;
+  color: $dark;
+}
+
+a {
+  cursor: pointer;
+  color:$black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
